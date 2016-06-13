@@ -1,21 +1,17 @@
-﻿using Klarna.Checkout;
-using Klarna.Rest;
-using Klarna.Rest.Checkout;
+﻿using Klarna.Rest;
 using Klarna.Rest.Models;
 using Klarna.Rest.Transport;
-using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Linq;
 using System.Web;
-using VirtoCommerce.Domain.Catalog.Services;
 using VirtoCommerce.Domain.Order.Model;
 using VirtoCommerce.Domain.Payment.Model;
 
 namespace Klarna.Checkout.US.Managers
 {
-	public class KlarnaCheckoutUSPaymentMethod : VirtoCommerce.Domain.Payment.Model.PaymentMethod
+    public class KlarnaCheckoutUSPaymentMethod : VirtoCommerce.Domain.Payment.Model.PaymentMethod
 	{
 		private const string _americaTestBaseUrl = "https://checkout-na.playground.klarna.com/checkout/orders";
 		private const string _americaApiTestBaseUrl = "https://api-na.playground.klarna.com/checkout/orders";
