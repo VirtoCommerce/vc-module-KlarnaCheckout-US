@@ -18,8 +18,8 @@
     <projectUrl>http://virtocommerce.com/</projectUrl>
     <iconUrl>Modules/$(Klarna.Checkout.US)/Content/Klarna-Logo.png</iconUrl>
     <releaseNotes>First version.</releaseNotes>
-    <copyright>Copyright © 2011-2015 Virto Commerce. All rights reserved</copyright>
-    <tags>klarna payment gateway</tags>
+    <copyright>Copyright © 2011-2016 Virto Commerce. All rights reserved</copyright>
+    <tags>Klarna payment gateway</tags>
 
     <assemblyFile>Klarna.Checkout.US.dll</assemblyFile>
     <moduleType>Klarna.Checkout.US.Module, Klarna.Checkout.US</moduleType>
@@ -47,7 +47,7 @@
                     <value>real</value>
                 </allowedValues>
                 <title>Mode</title>
-                <description>Mode of klarna payment gateway (test or real)</description>
+                <description>Mode of Klarna payment gateway (test or real)</description>
             </setting>
             <setting>
                 <name>Klarna.Checkout.US.TermsUrl</name>
