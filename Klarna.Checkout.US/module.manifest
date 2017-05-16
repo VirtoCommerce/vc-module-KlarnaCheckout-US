@@ -34,7 +34,7 @@
             </setting>
             <setting>
                 <name>Klarna.Checkout.US.SecretKey</name>
-                <valueType>string</valueType>
+                <valueType>securestring</valueType>
                 <title>Secret key</title>
                 <description>Klarna secret key from credentials</description>
             </setting>
